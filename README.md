@@ -2,10 +2,13 @@
 simple teeworlds chat ai based on teeworlds nodejs module.
 **easy TeeWorlds AI ChatBot**
 **to run:**
+
 **step 1:** download node.js and other
 `sudo apt install node nodejs npm`
+
 **step 2:** install all modules
 `npm install TeeWorlds readline colors`
+
 and other if needed
 
 **step 3:**
