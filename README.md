@@ -27,3 +27,7 @@ open them and add any ip you want.
 extract it, open terminal, and do node bot.js
 
 **step 7:** get fun with it!
+
+
+# READ IT
+create new folder with name node_modules and move all folder in here, the other files leave in same place.
