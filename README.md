@@ -7,7 +7,7 @@ simple teeworlds chat ai based on teeworlds nodejs module.
 `sudo apt install node nodejs npm`
 
 **step 2:** install all modules
-`npm install TeeWorlds readline colors`
+`npm install teeworlds readline colors`
 
 and other if needed
 
