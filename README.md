@@ -31,3 +31,7 @@ extract it, open terminal, and do node bot.js
 
 # READ IT
 create new folder with name node_modules and move all folder in here, the other files leave in same place.
+
+
+# upd
+chat bot interface is on russian rn, you can configure it if you want.
