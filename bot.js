@@ -18,7 +18,6 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-// Replace fetch with native Node.js https request
 async function callApi(message, sender) {
   return new Promise((resolve, reject) => {
     try {
@@ -202,7 +201,6 @@ async function startBot() {
   console.log(colors.green('/stats') + colors.white(' - Показать статистику бота'));
   console.log(colors.green('/exit') + colors.white(' - Выйти из бота'));
   
-  // Загрузка IP адресов из файла
   try {
     console.log(colors.blue('📂 Загрузка IPs из файла ips.bot...'));
     if (!fs.existsSync('ips.bot')) {
@@ -320,12 +318,10 @@ async function startBot() {
   
   setInterval(logActivity, 60000);
 
-  // Исправленная обработка ввода с консоли
   rl.on('line', async (input) => {
     const trimmedInput = input.trim();
     if (trimmedInput === '') return;
     
-    // Обработка команд
     if (trimmedInput.startsWith('/')) {
       const parts = trimmedInput.slice(1).split(' ');
       const command = parts[0].toLowerCase();
