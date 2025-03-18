@@ -1,3 +1,8 @@
+# CREDITS
+
+Made by TikTok: Wranked, https://t.me/Wranked1
+using swarfey teeworlds module
+
 # TeeWorlds_AI_Chat
 simple teeworlds chat ai based on teeworlds nodejs module.
 **easy TeeWorlds AI ChatBot**
